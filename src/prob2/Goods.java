@@ -3,11 +3,13 @@ package prob2;
 public class Goods {
 	
 	private String goods_name;
-	private int price;
-	private int number;
+	private String price;
+	private String number;
 	
-	public Goods () {
-		
+	public Goods (String goods_name, String price, String number) {
+		this.goods_name = goods_name;
+		this.price = price;
+		this.number = number;
 	}
 
 	public String getGoods_name() {
@@ -18,19 +20,19 @@ public class Goods {
 		this.goods_name = goods_name;
 	}
 
-	public int getPrice() {
+	public String getPrice() {
 		return price;
 	}
 
-	public void setPrice(int price) {
+	public void setPrice(String price) {
 		this.price = price;
 	}
 
-	public int getNumber() {
+	public String getNumber() {
 		return number;
 	}
 
-	public void setNumber(int number) {
+	public void setNumber(String number) {
 		this.number = number;
 	}
 }
