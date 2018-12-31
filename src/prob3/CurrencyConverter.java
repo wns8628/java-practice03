@@ -16,5 +16,4 @@ public class CurrencyConverter {
 		return (dollar * CurrencyConverter.rate);
 	}
 	
-	
 }
