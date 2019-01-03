@@ -8,7 +8,7 @@ public class Sub {
 		this.a = a;
 		this.b = b;
 	}
-	
+
 	public int calculate() {
 		return 	a - b;
 	}
